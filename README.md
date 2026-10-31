@@ -19,8 +19,8 @@
 
 ## 글꼴
 
-`assets/fonts/PretendardVariable.woff2`를 넣으면 Pretendard로 보입니다([SIL OFL 1.1](https://github.com/orioncactus/pretendard)).
-파일이 없으면 시스템 글꼴(Apple SD Gothic Neo, 맑은 고딕, Noto Sans KR)로 보입니다.
+`assets/fonts/PretendardVariable.woff2`는 Pretendard v1.3.9 공식 배포본(orioncactus/pretendard)의 가변 글꼴을 바꾸지 않고 넣은 것입니다.
+라이선스는 SIL OFL 1.1이며 전문은 `assets/fonts/OFL-Pretendard.txt`에 있습니다. 글꼴을 불러오지 못하면 시스템 글꼴(Apple SD Gothic Neo, 맑은 고딕, Noto Sans KR)로 보입니다.
 
 ## 사진 출처
 

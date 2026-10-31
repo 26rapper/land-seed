@@ -140,22 +140,11 @@ p { margin: 0 0 1em; text-wrap: pretty; }
 .hero-visual { position: relative; }
 .hero-photo { position: relative; margin: 0; aspect-ratio: 1 / 1.08; overflow: hidden; border-radius: var(--r-xl); background: var(--c-surface-sprout); }
 .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
-.credit { position: absolute; right: 12px; bottom: 12px; white-space: nowrap; max-width: calc(100% - 24px); padding: 6px 12px; border-radius: var(--r-pill); background: rgb(12 18 14 / .74); color: #fff; font-size: 12.5px; line-height: 1.45; }
-.credit a { color: #fff; }
-.credit a:hover { color: #fff; }
-.peek { position: absolute; left: 14px; top: 14px; display: grid; gap: 2px; max-width: min(300px, calc(100% - 28px)); padding: 14px 18px 16px; border-radius: var(--r-lg); background: #fff; box-shadow: var(--sh-2); color: var(--c-ink); text-decoration: none; transition: transform .2s; }
-.peek:hover { color: var(--c-ink); transform: translateY(-2px); }
-.peek-label { display: inline-flex; align-items: center; gap: 6px; color: var(--c-green-deep); font-size: 13px; font-weight: 750; }
-.peek-label .ico { --ic: var(--ic-arrow); width: 14px; height: 14px; }
-.peek strong { font-size: 22px; font-weight: 800; letter-spacing: -.03em; }
-.peek span:last-child { color: var(--c-ink-2); font-size: 15px; line-height: 1.55; }
-@media (max-width: 959px) { .peek { display: none; } } /* 휴대폰에서는 사진을 가리지 않게 숨김 */
 @media (min-width: 960px) {
   .hero { padding: var(--sp-10) 0 var(--sp-11); }
   .hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 64px; align-items: center; }
   .hero h1 { font-size: min(3.75rem, 5vw); }
   .hero-photo { aspect-ratio: 4 / 4.6; }
-  .peek { left: -40px; top: 48px; }
 }
 
 /* 섹션 */
